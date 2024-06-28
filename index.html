@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seatwork 4</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRID@24,400,0,0">
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="index.html" class="logo">Mojics<span>.</span></a>
+        <ul class="menu-link">
+          <span id="close-menu-btn" class="material-symbols-outlined">close</span>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="../WD-Seatwork-4/pages/basic-page/index.html">Feature 1</a></li>
+          <li><a href="../WD-Seatwork-4/pages/no-man's-sky/index.html">Feature 2</a></li>
+        </ul>
+         <span id="menu-btn" class="material-symbols-outlined">menu</span>
+      </nav>
+    </header>
+
+    <section class="hero-section">
+      <div class="content">
+        <h1>fjbaslkfjbaskj</h1>
+        <p>
+          sadasdasdfdafafdsfasfadfaswdfa
+        </p>
+        <button href="../WD-Seatwork-4/pages/basic-page/index.html">Start</button>
+      </div>
+    </section>
+
+    <script>
+      const header = document.querySelector("header");
+      const menuBtn = document.querySelector("#menu-btn");
+      const closeMenuBtn = document.querySelector("#close-menu-btn");
+
+      // Toggle mobile menu on menu button click
+      menuBtn.addEventListener("click", () => {
+        header.classList.toggle("show-mobile-menu");
+      });
+
+      // Close mobile menu on close button click
+      menuBtn.addEventListener("click", () => {
+        menuBtn.click();
+      });
+
+    </script>
+  </body>
+</html>
