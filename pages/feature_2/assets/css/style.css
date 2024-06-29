@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Existing styles here */
+
+.first-section {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    background: url('../img/2023-Honda-Civic-Type-R-001-1080w\ \(1\).jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+.first-section h1, .first-section h2 {
+    margin: 0;
+}
+
+.first-section h1 {
+    font-size: 4em;
+}
+
+.first-section h2 {
+    font-size: 5em;
+}
+
+/* Second Section Styles */
+.second-section {
+    background: url('../img/model-sliders-design-ext-type-r-23-01.jpg') no-repeat center center/cover;
+    padding: 60px 0;
+    color: white;
+}
+
+.second-section .container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.second-section .features {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.second-section .feature-item {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 300px;
+    text-align: left;
+}
+
+.second-section .feature-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: -100%; /* Offset to reveal placeholder */
+    transition: margin-top 0.5s ease; /* Animation transition */
+    opacity: 0.5;
+}
+
+.second-section:hover .feature-item img {
+    margin-top: 0; /* Reveals the image on hover */
+    opacity: 1.0;
+}
+
+.second-section .feature-item h3 {
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+.second-section .feature-item p {
+    font-size: 1rem;
+    margin: 10px;
+    padding: 0 10px 10px;
+}
+
+
+
+/* Third Section Styles */
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.feature img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.feature p {
+    margin: 10px 0 0 0;
+    font-size: 1.5em;
+}
+
+.third-section {
+    position: relative;
+    background: url('../img/model-sliders-design-ext-type-r-23-02.jpg') no-repeat center center/cover;
+    padding: 50px 0;
+    color: white;
+}
+
+.burn-feature-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.burn-feature {
+    position: relative;
+    width: 45%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.burn-feature img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.burn-feature h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
+
+.footer-modern {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 0;
+  
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  
+    .footer-nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-bottom: 1rem;
+  
+      a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+  
+      }
+    }
+  }
