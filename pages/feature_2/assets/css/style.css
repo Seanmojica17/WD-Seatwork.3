@@ -157,8 +157,8 @@ body {
 }
 
 .footer-modern {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
     text-align: center;
     padding: 2rem 0;
   
@@ -174,7 +174,7 @@ body {
       margin-bottom: 1rem;
   
       a {
-        color: #ffffff;
+        color: #000000;
         text-decoration: none;
         font-weight: bold;
   
