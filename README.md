@@ -4,30 +4,27 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="" alt="Nyebe" width="130" height="100">
+  <a href="https://github.com/Seanmojica17">
+    <img src="./assets/img/Brown Simple Interior Furniture Initial Logo.png" alt="Mojics" width="140" height="100">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
+
   <h3 align="center">Title</h3>
 </div>
-<!-- TODO: Make a short description -->
+
 <div align="center">
-  Short Description. (Optional)
+  In this activity show two kinds of features of motorcycle and car.
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![visits](https://visit-counter.vercel.app/counter.png?page=https%3A%2F%2Fgithub.com%2FSeanmojica17%2FWD-Seatwork.4&s=42&c=ff0026&bg=00000000&no=1&ff=electrolize&tb=&ta=)
 
 ---
 
 <br />
 <br />
 
-<!-- TODO: If you want to add more layers for your readme -->
+
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -54,29 +51,24 @@
 ---
 
 ## Overview
-
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
-Description of the project in details.
+Creating a feature page for motorcycles and cars using HTML and CSS involves several steps, from planning the structure of the page to styling it for an attractive and functional design.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- Project is to make feature page.
+- The purpose of creating a feature page for motorcycles and cars using HTML and CSS is to showcase specific features, details, and benefits of different vehicles in a visually appealing and    organized manner.
+- The key components of a feature page for motorcycles and cars include a header with navigation, a hero section with a background image or video and call-to-action, sections for detailed descriptions and specifications, high-quality images or galleries, customer reviews, and a footer with contact information and additional links.
+- To create a feature page for motorcycles and cars, the primary technologies used are HTML and CSS.
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Landing Page
+- Feature Pages
+- Hover Effects
+- Responsive Navigation Bar
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -117,4 +109,6 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Seatwork 4 | Idea and Design | https://github.com/zyx-0314 |
+| Reponsive Navigation Bar | Idea and Design | https://www.codingnepalweb.com/responsive-navigation-bar-html-css-javascript/ |
+| Landing Page and Feature Page | Idea and Design | youtube.com |
