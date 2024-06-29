@@ -6,7 +6,6 @@
     <title>Seatwork 4</title>
 
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/footer.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRID@24,400,0,0">
   </head>
 
@@ -17,22 +16,23 @@
         <ul class="menu-link">
           <span id="close-menu-btn" class="material-symbols-outlined">close</span>
           <li><a href="index.html">Home</a></li>
-          <li><a href="../WD-Seatwork-4/pages/basic-page/index.html">Feature 1</a></li>
-          <li><a href="../WD-Seatwork-4/pages/no-man's-sky/index.html">Feature 2</a></li>
+          <li><a href="./pages/feature_1/index.html">Feature 1</a></li>
+          <li><a href="./pages/feature_2/index.html">Feature 2</a></li>
         </ul>
          <span id="menu-btn" class="material-symbols-outlined">menu</span>
       </nav>
     </header>
 
     <section class="hero-section">
-      <div class="content">
-        <h1>fjbaslkfjbaskj</h1>
-        <p>
-          sadasdasdfdafafdsfasfadfaswdfa
-        </p>
-        <button href="../WD-Seatwork-4/pages/basic-page/index.html">Start</button>
-      </div>
+        <div class="content">
+          <h1>Seatwork #4</h1>
+          <p>
+            This seatwork shows 2 kinds of features.
+          </p>
+          <a href="./pages/feature_1/index.html" class="button">Start</a>
+        </div>
     </section>
+      
 
     <script>
       const header = document.querySelector("header");
@@ -48,7 +48,38 @@
       menuBtn.addEventListener("click", () => {
         menuBtn.click();
       });
-
     </script>
+
+    <section class="feature">
+        <h3>Features</h3>
+        <div class="card-container">
+          <a href="./pages/feature_1/index.html" class="card">
+            <div class="img-holder">
+              <img src="./assets/img/nmax.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h4>Feature 1</h4>
+              <p>
+                
+              </p>
+            </div>
+          </a>
+          <a href="./pages/feature_1/index.html" class="card">
+            <div class="img-holder">
+              <img src="./assets/img/2023-Honda-Civic-Type-R-014-2400p.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h4>Feature 2</h4>
+            </div>
+          </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="bottom">
+        <img src="./assets/img/Brown Simple Interior Furniture Initial Logo.png" alt="mojics logo" class="logo">
+    </section>
+  
+
   </body>
 </html>

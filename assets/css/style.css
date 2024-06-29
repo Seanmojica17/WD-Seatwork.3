@@ -9,9 +9,11 @@
 
 body {
   height: 100vh;
-  background: url("hero");
+  background: url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHk1eDl2cnJwY3R6OWV3em5xd2phaWYxYWJ4a3FlOTJwcWFrbWo4cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PY6rZl1vZwLra/giphy.gif");
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 header {
@@ -31,29 +33,31 @@ header .navbar {
 }
 
 .navbar .logo {
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 2.1rem;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .navbar .logo span {
-  color: rgb(255, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 .navbar .menu-link{
   display: flex;
   gap: 40px;
   list-style: none;
+  font-size: larger;
+  font-weight: bolder;
 }
 
 .navbar a{
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   transition: 0.2s ease;
 }
 
 .navbar a:hover {
-  color: rgb(255, 218, 7);
+  color: rgb(255, 0, 0);
 }
 
 .hero-section {
@@ -61,46 +65,54 @@ header .navbar {
   display: flex;
   align-items: center;
   padding: 0 20px;
+  row-gap: 2;
 }
 
 .hero-section .content {
-  color: wheat;
+  color: rgb(255, 255, 255);
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
 }
 
 .hero-section .content h1 {
-  font-size: 3rem;
-  max-width: 600px;
+  font-size: 6rem;
+  max-width: 900px;
 }
 
 .hero-section .content p {
-  font-weight: 300;
-  margin-top: 15px;
+  font-weight: 700;
+  font-size: larger;
   max-width: 600px;
+  padding-bottom: 20px;
 }
 
-.hero-section .content button {
-  background: #fff;
-  outline: none;
-  border: none;
-  font-size: 1rem;
-  font-weight: 500;
-  margin-top: 38px;
-  padding: 12px 30px;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: 0.2s ease;
-}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .button:hover {
+    background-color: #ff0000;
+  }
 
 .hero-section .content button:hover {
-  color: #fff;
-  background: rgb(116, 79, 12);
+  color: #000000;
+  background: rgb(255, 0, 0);
 }
 
 #menu-btn {
-  color: #fff;
+  color: #fff2f2;
   cursor: pointer;
   display: none;
 }
@@ -116,7 +128,6 @@ header .navbar {
 
 
 @media screen and (max-width: 900px) {
-  
   header {
     padding: 10px 20px;
   }
@@ -174,3 +185,112 @@ header .navbar {
     padding: 9px 18px;
   }
 }
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 5rem;
+  
+    & .section {
+      font-weight: 900;
+    }
+  
+    & .logo {
+      height: 200px;
+      padding-top: 5rem;
+    }
+  
+    & .narrative {
+      font-weight: 900;
+    }
+}
+
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+  
+    & h3 {
+      color: #fff;
+      font-size: 3rem;
+    }
+  
+    & .card-container {
+      display: flex;
+      gap: 2.5rem;
+      flex-wrap: wrap;
+  
+      & .card {
+        border-radius: 5px;
+        width: 15rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+        position: relative;
+        overflow: hidden;
+        transition: all ease 0.5s;
+  
+        & img {
+          height: 20rem;
+          width: 15rem;
+          object-fit: cover;
+          border-radius: 5px;
+          transition: all ease 0.5s;
+        }
+  
+        & .content {
+          position: absolute;
+          width: 15rem;
+          background: rgb(0, 0, 0);
+          background: linear-gradient(
+            10deg,
+            rgba(0, 0, 0, 0.577) 35%,
+            rgba(255, 255, 255, 0) 78%,
+            rgba(255, 255, 255, 0) 100%
+          );
+          bottom: -6rem;
+          padding: 1rem;
+          opacity: 0;
+          transition: all ease 0.5s;
+          color: white;
+  
+          & h4 {
+            font-size: 1.5rem;
+            padding: 0 1rem;
+          }
+  
+          & p {
+            color: white;
+            text-indent: 2rem;
+            text-align: justify;
+            text-justify: inter-word;
+            overflow: hidden;
+            padding: 0 1rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+          }
+        }
+  
+        &:hover {
+          background-color: gray;
+  
+          & img {
+            scale: 0.9;
+            opacity: 0.4;
+          }
+  
+          & .content {
+            bottom: 0;
+            opacity: 1;
+            filter: brightness(1);
+          }
+        }
+      }
+    }
+  }
