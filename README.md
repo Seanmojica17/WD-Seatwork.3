@@ -8,7 +8,7 @@
     <img src="./assets/img/Brown Simple Interior Furniture Initial Logo.png" alt="Mojics" width="140" height="100">
   </a>
 
-  <h3 align="center">Title</h3>
+  <h3 align="center">Seatwork 4</h3>
 </div>
 
 <div align="center">
